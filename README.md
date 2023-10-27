@@ -2,7 +2,7 @@
 
 ## Description
 
-This WordPress plugin, named "Muelle-wp-custom," has been created to display the status of docks and provide detailed information about docked ships. It is a powerful tool that allows you to manage and visualize important information about the port and its docking activities.
+This WordPress plugin, named "Real time dock," has been created to display the status of docks and provide detailed information about docked ships. It is a powerful tool that allows you to manage and visualize important information about the port and its docking activities.
 
 ## Key Features
 
