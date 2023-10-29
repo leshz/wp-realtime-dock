@@ -2,6 +2,7 @@
 
 function getFiveLastpdf($atts)
 {
+  wp_enqueue_style('muellecss');
   $attachments = get_posts(
     array(
       'post_type' => 'attachment',
@@ -13,10 +14,9 @@ function getFiveLastpdf($atts)
 ?>
   <div class="filepicker">
     <select>
-
       <option value="0">
         <?php
-        $txt = ($GLOBALS['spanish']) ? "Seleccione una fecha" : "Select date";
+        $txt = "Seleccione una fecha";
         echo $txt;
         ?>
       </option>
@@ -34,7 +34,7 @@ function getFiveLastpdf($atts)
     </select>
     <button>
       <?php
-      $txt = ($GLOBALS['spanish']) ? "Descargar Situacion portuaria" : "Download pier status";
+      $txt =  "Descargar Situacion portuaria";
       echo $txt;
       ?></button>
   </div>

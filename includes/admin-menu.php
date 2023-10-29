@@ -154,7 +154,9 @@ function muelle_form_settings()
     </div>
     <div>
       <h4>to show dock information use the shortcode</h4>
-      <pre>[muelle_status]</pre>
+      <pre>[real_time_dock]</pre>
+      <h4>to download selector file reporter</h4>
+      <pre>[file_docker_status val=5]</pre>
     </div>
   </div>
 <?php
