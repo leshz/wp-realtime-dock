@@ -359,58 +359,51 @@
   max-width: 430px;
   padding: 25px;
 }
-/* Selector principal */
+
 select {
-  padding: 10px; /* Espacio interno (padding) para el contenido */
-  font-size: 16px; /* Tamaño de fuente */
-  border: 1px solid #ccc; /* Borde con color de fondo */
-  border-radius: 5px; /* Borde redondeado */
-  background-color: #fff; /* Color de fondo */
-  color: #333; /* Color del texto */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
 }
 
-/* Estilo al pasar el ratón sobre el selector */
 select:hover {
-  border-color: #183d66; /* Cambia el color del borde al pasar el ratón */
+  border-color: #183d66;
 }
 
-/* Estilo al enfocar el selector */
 select:focus {
-  outline: none; /* Elimina el contorno predeterminado */
-  border-color: #007bff; /* Cambia el color del borde al enfocar */
+  outline: none;
+  border-color: #007bff;
 }
 
-/* Estilo para las opciones dentro del selector */
 select option {
-  background-color: #fff; /* Color de fondo de las opciones */
-  color: #333; /* Color del texto de las opciones */
+  background-color: #fff;
+  color: #333;
 }
 
-/* Estilo para las opciones al pasar el ratón sobre ellas */
 select option:hover {
-  background-color: #007bff; /* Color de fondo al pasar el ratón sobre las opciones */
-  color: #fff; /* Color del texto al pasar el ratón sobre las opciones */
+  background-color: #007bff;
+  color: #fff;
 }
 
-/* Estilo para el botón principal */
 button {
-  padding: 10px 20px; /* Espacio interno para el contenido (vertical, horizontal) */
-  font-size: 16px; /* Tamaño de fuente */
-  border: 1px solid #183d66; /* Color de fondo */
-  background: #183d66; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  border-radius: 10px; /* Borde redondeado */
-  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #183d66;
+  background: #183d66;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-/* Estilo al pasar el ratón sobre el botón */
 button:hover {
   color: #183d66;
   background: #fff;
 }
 
-/* Estilo al hacer clic en el botón */
 button:active {
-  background-color: #003d80; /* Cambia el color de fondo al hacer clic */
+  background-color: #003d80;
 }
