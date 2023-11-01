@@ -57,7 +57,7 @@ function muelle_status()
       </div>
     </div>
     <div class="muelle_back">
-      <img src="<?php echo plugins_url('../assets/client/img/mapa-puerto-2.png', __FILE__) ?>" draggable="false" />
+      <img src="<?php echo plugins_url('../assets/client/img/mapa-puerto.webp', __FILE__) ?>" draggable="false" />
       <div class="battleship">
         <?php
         if ($datainfo[0]['motonave'] != "") {
@@ -85,7 +85,8 @@ function muelle_status()
 
 
           <?php
-            if ($GLOBALS['spanish']) {
+            // for change the language of the plugin
+            if (true) {
           ?>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
